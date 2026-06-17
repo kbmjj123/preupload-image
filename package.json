@@ -1,6 +1,6 @@
 {
   "name": "preupload-image",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lightweight browser-side image processing before upload — compress, convert to WebP, and resize using Canvas API. No server needed.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

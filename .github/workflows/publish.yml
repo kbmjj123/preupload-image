@@ -17,6 +17,11 @@ jobs:
         with:
           node-version: '22'
           registry-url: 'https://registry.npmjs.org'
+      - name: Upgrade npm
+        run: npm install -g npm@latest   # 将 npm 升级到最新版（11.x）
+
+      - name: Install dependencies
+        run: npm install
 
       - name: Install dependencies
         run: npm install

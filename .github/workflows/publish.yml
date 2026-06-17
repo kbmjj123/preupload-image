@@ -8,6 +8,9 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write   # 关键：允许请求 OIDC 令牌
     steps:
       - uses: actions/checkout@v4
 

@@ -44,10 +44,10 @@
   "homepage": "https://bulkpictools.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kbmjj123/BulkPicTools"
+    "url": "https://github.com/kbmjj123/preupload-image"
   },
   "bugs": {
-    "url": "https://github.com/kbmjj123/BulkPicTools/issues"
+    "url": "https://github.com/kbmjj123/preupload-image/issues"
   },
   "license": "MIT",
   "devDependencies": {
